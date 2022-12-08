@@ -7,8 +7,8 @@ import {
   HttpLink,
 } from "@apollo/client";
 
-import Todos from "./components/todos";
-import CreateTodo from "./components/create";
+import Todos from "../src/components/todos";
+import CreateTodo from "../src/components/create";
 
 const HASURA_ADMIN_SECRET = process.env.HASURA_ADMIN_SECRET;
 const API_URL = process.env.API_URL;
